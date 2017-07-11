@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_US" version="6.5.0" title="Shotcut version 17.06.01" producer="main bin">
+  <profile description="automatic" width="2880" height="1800" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="2880" display_aspect_den="1800" frame_rate_num="7" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.857">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">runtime-badgetext-blue-transparent.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">021baa69ddcabdbfb5732ed158e74d1a</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.714">
+    <property name="length">00:04:07.857</property>
+    <property name="eof">pause</property>
+    <property name="resource">Cephalopod.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e6f7368048b8ed3e59dfddeac821dce9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Cephalopod.mp3</property>
+    <property name="shotcut:detail">Cephalopod.mp3</property>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.857">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">title-boiler-plate.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0e2530c364a46a939095f6d8e650a4ff</property>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.286">
+    <property name="length">00:00:18.429</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.5:RuntimeConsole.wmv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">1.5</property>
+    <property name="warp_resource">RuntimeConsole.wmv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">c983ba8b0268fb980f1f866a1ef52701</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">RuntimeConsole.wmv (1.5x)</property>
+    <property name="shotcut:detail">RuntimeConsole.wmv</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.857">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">runtime-text-whiteandblue-transparent-fullsize.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">98a3cb1c68665ffd5be216192188a452</property>
+  </producer>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:03.857"/>
+    <entry producer="producer1" in="00:03:44.571" out="00:04:07.714"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:03.857"/>
+    <entry producer="producer5" in="00:00:01.000" out="00:00:10.857"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:03.857"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:19.857">
+    <property name="length">00:00:20.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:19.857"/>
+  </playlist>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.286">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">runtime-text-whiteandblue-transparent-fullsize.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">98a3cb1c68665ffd5be216192188a452</property>
+    <property name="ignore_points">0</property>
+    <filter id="filter0" out="00:00:04.857">
+      <property name="start">1</property>
+      <property name="level">0=0; 34=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+    </filter>
+    <filter id="filter1">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">0</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.geometry">0.00%/28.06%:100.00%x100.00%</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.286">
+    <property name="length">00:00:18.429</property>
+    <property name="eof">pause</property>
+    <property name="resource">1.5:RuntimeConsole.wmv</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">1.5</property>
+    <property name="warp_resource">RuntimeConsole.wmv</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">c983ba8b0268fb980f1f866a1ef52701</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">RuntimeConsole.wmv (1.5x)</property>
+    <property name="shotcut:detail">RuntimeConsole.wmv</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.429">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">title-boiler-plate.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0e2530c364a46a939095f6d8e650a4ff</property>
+    <filter id="filter2">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.geometry">35.83%/-13.72%:19.41%x15.50%</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="transition.threads">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter3">
+      <property name="argument">Runtime Development - YouTube Channel</property>
+      <property name="geometry">16.22%/-9.56%:67.71%x48.33%</property>
+      <property name="family">Verdana</property>
+      <property name="size">870</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#ff000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:05.286"/>
+    <entry producer="producer8" in="00:00:01.000" out="00:00:10.857"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:04.429"/>
+  </playlist>
+  <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.429">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">runtime-badgetext-blue-transparent.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">021baa69ddcabdbfb5732ed158e74d1a</property>
+    <filter id="filter4">
+      <property name="background">colour:0</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.geometry">88.54%/81.56%:10.07%x12.89%</property>
+      <property name="transition.valign">top</property>
+      <property name="transition.halign">left</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter5">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">brightnessOpacity</property>
+      <property name="alpha">0.24</property>
+      <property name="opacity">0.24</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">Watermark</property>
+    <blank length="00:00:18.429"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:01.429"/>
+  </playlist>
+  <producer id="producer13" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.714">
+    <property name="length">00:04:07.857</property>
+    <property name="eof">pause</property>
+    <property name="resource">Cephalopod.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e6f7368048b8ed3e59dfddeac821dce9</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Cephalopod.mp3</property>
+    <property name="shotcut:detail">Cephalopod.mp3</property>
+    <property name="shotcut:comment"></property>
+    <filter id="filter6" in="00:03:44.571" out="00:03:49.429">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="gain">0</property>
+      <property name="end">1</property>
+    </filter>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer13" in="00:03:44.571" out="00:04:04.429"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 17.06.01" global_feed="1" in="00:00:00.000" out="00:00:19.857">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">3.1933</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
