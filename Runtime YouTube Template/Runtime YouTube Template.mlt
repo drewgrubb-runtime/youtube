@@ -4,7 +4,7 @@
   <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.857">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">runtime-badgetext-blue-transparent.png</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/runtime-badgetext-blue-transparent.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -18,7 +18,7 @@
   <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.714">
     <property name="length">00:04:07.857</property>
     <property name="eof">pause</property>
-    <property name="resource">Cephalopod.mp3</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/Cephalopod.mp3</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
     <property name="mute_on_pause">0</property>
@@ -34,7 +34,7 @@
   <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.857">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">title-boiler-plate.png</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/title-boiler-plate.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -48,7 +48,7 @@
   <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.286">
     <property name="length">00:00:18.429</property>
     <property name="eof">pause</property>
-    <property name="resource">1.5:RuntimeConsole.wmv</property>
+    <property name="resource">1.5:C:\_git\YouTube\Runtime YouTube Template/RuntimeConsole.wmv</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
     <property name="audio_index">-1</property>
@@ -69,7 +69,7 @@
   <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.857">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">runtime-text-whiteandblue-transparent-fullsize.png</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/runtime-text-whiteandblue-transparent-fullsize.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -91,7 +91,7 @@
   <producer id="black" in="00:00:00.000" out="00:00:19.857">
     <property name="length">00:00:20.000</property>
     <property name="eof">pause</property>
-    <property name="resource">black</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/black</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="set.test_audio">0</property>
@@ -102,7 +102,7 @@
   <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:00:05.286">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">runtime-text-whiteandblue-transparent-fullsize.png</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/runtime-text-whiteandblue-transparent-fullsize.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -113,9 +113,9 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">98a3cb1c68665ffd5be216192188a452</property>
     <property name="ignore_points">0</property>
-    <filter id="filter0" out="00:00:04.857">
+    <filter id="filter0" out="00:00:20.857">
       <property name="start">1</property>
-      <property name="level">0=0; 34=1</property>
+      <property name="level">0=0; 146=1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeInBrightness</property>
       <property name="alpha">1</property>
@@ -135,7 +135,7 @@
   <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:00:18.286">
     <property name="length">00:00:18.429</property>
     <property name="eof">pause</property>
-    <property name="resource">1.5:RuntimeConsole.wmv</property>
+    <property name="resource">1.5:C:\_git\YouTube\Runtime YouTube Template/RuntimeConsole.wmv</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
     <property name="audio_index">-1</property>
@@ -157,7 +157,7 @@
   <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:00:04.429">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">title-boiler-plate.png</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/title-boiler-plate.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -207,7 +207,7 @@
   <producer id="producer12" title="Anonymous Submission" in="00:00:00.000" out="00:00:01.429">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">runtime-badgetext-blue-transparent.png</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/runtime-badgetext-blue-transparent.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -246,7 +246,7 @@
   <producer id="producer13" title="Anonymous Submission" in="00:00:00.000" out="00:04:07.714">
     <property name="length">00:04:07.857</property>
     <property name="eof">pause</property>
-    <property name="resource">Cephalopod.mp3</property>
+    <property name="resource">C:\_git\YouTube\Runtime YouTube Template/Cephalopod.mp3</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
     <property name="mute_on_pause">0</property>
